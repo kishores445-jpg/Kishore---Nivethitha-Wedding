@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4a1728" />
+  <meta name="description" content="The wedding of Kishore Subramanian & Nivethitha Kalimuthu — November 11, 2026, Erode." />
+  <title>Kishore & Nivethitha | Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Noto+Serif+Tamil:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="music-pill" id="musicPill">
+    <button id="musicBtn" aria-label="Play wedding music">♪</button>
+    <span id="musicLabel">Our song</span>
+    <audio id="music" loop preload="none" src="assets/marriage-at-2am.mp3"></audio>
+  </div>
+
+  <main>
+    <section class="hero section">
+      <div class="mandala mandala-left"></div><div class="mandala mandala-right"></div>
+      <div class="hero-inner reveal">
+        <p class="eyebrow">॥ ஸ்ரீ கணேஷாய நமः ॥</p>
+        <p class="invite">Together with our families, we invite you to celebrate</p>
+        <h1><span>Kishore</span><em>&amp;</em><span>Nivethitha</span></h1>
+        <p class="tagline">TWO HEARTS, TWO FAMILIES, ONE BEAUTIFUL BEGINNING</p>
+        <div class="hero-date">11 · 11 · 2026</div>
+        <a class="scroll-cue" href="#countdown">Scroll to celebrate <span>↓</span></a>
+      </div>
+    </section>
+
+    <section id="countdown" class="countdown section">
+      <div class="container reveal">
+        <p class="eyebrow">The big day</p>
+        <h2>Wedding Countdown</h2>
+        <div class="timer" aria-label="Wedding countdown">
+          <div><strong id="days">--</strong><span>Days</span></div>
+          <div><strong id="hours">--</strong><span>Hours</span></div>
+          <div><strong id="minutes">--</strong><span>Minutes</span></div>
+          <div><strong id="seconds">--</strong><span>Seconds</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section">
+      <div class="container story-grid">
+        <div class="story-copy reveal">
+          <p class="eyebrow">Our beginning</p>
+          <h2>A new chapter,<br><i>together.</i></h2>
+          <p>Two families, two journeys and one promise. We are stepping into a new chapter surrounded by the people who mean the most to us.</p>
+          <p class="tamil">இரு மனங்கள் இணையும் இனிய தருணத்தில், உங்கள் அன்பும் ஆசீர்வாதமும் எங்களுடன் இருக்கட்டும்.</p>
+        </div>
+        <div class="photo-frame reveal">
+          <div class="photo-placeholder">YOUR<br/>COUPLE PHOTO</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="events section">
+      <div class="container reveal">
+        <p class="eyebrow">Save the dates</p>
+        <h2>Wedding Celebrations</h2>
+        <div class="event-grid">
+          <article class="event-card featured">
+            <span class="event-number">01</span>
+            <p class="event-date">11 November 2026</p>
+            <h3>திருமணம்<br/><i>Wedding Ceremony</i></h3>
+            <p class="event-time">4:30 AM – 5:45 AM</p>
+            <p>A sacred morning as we begin our journey together with the blessings of our families and the divine.</p>
+          </article>
+          <article class="event-card">
+            <span class="event-number">02</span>
+            <p class="event-date">11 November 2026</p>
+            <h3>Reception<br/><i>Evening Celebration</i></h3>
+            <p class="event-time">Evening</p>
+            <p>An evening of laughter, music, food and togetherness. We would love to celebrate with you.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="venue section">
+      <div class="container venue-grid">
+        <div class="venue-card reveal">
+          <p class="eyebrow">Where to join us</p>
+          <h2>Wedding Venue</h2>
+          <h3>Sri Ponarachaalai Amman Temple</h3>
+          <p>Arachalur, Erode, Tamil Nadu</p>
+          <a class="button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sri+Ponarachaalai+Amman+Temple+Arachalur">Open in Google Maps ↗</a>
+        </div>
+        <div class="map-art reveal">
+          <div class="map-ring"></div><div class="map-pin">✦</div>
+          <span>ARACHALUR<br/><small>ERODE · TAMIL NADU</small></span>
+        </div>
+      </div>
+      <div class="container venue-secondary reveal">
+        <div><span>Reception</span><strong>MuthuMahal, Erode</strong></div>
+        <a class="text-link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=MuthuMahal+Erode">Get directions ↗</a>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <div class="container reveal">
+        <p class="eyebrow">A few memories</p>
+        <h2>Our Moments</h2>
+        <div class="gallery-grid">
+          <div class="gallery-photo tall">PHOTO 01</div>
+          <div class="gallery-photo">PHOTO 02</div>
+          <div class="gallery-photo">PHOTO 03</div>
+          <div class="gallery-photo wide">PHOTO 04</div>
+        </div>
+        <p class="hint">Replace the four files in <code>assets/gallery/</code> with your own photos.</p>
+      </div>
+    </section>
+
+    <section class="rsvp section" id="rsvp">
+      <div class="container rsvp-inner reveal">
+        <p class="eyebrow">We'd love to have you</p>
+        <h2>RSVP</h2>
+        <p>Your presence will make our celebration even more special. Please let us know if you can join us.</p>
+        <form id="rsvpForm" class="rsvp-form">
+          <label>Full name<input required name="name" placeholder="Your name" /></label>
+          <label>Will you attend?
+            <select name="attendance" required><option value="">Choose</option><option>Yes, with pleasure</option><option>Sorry, can't make it</option></select>
+          </label>
+          <label>Number of guests<input required type="number" min="1" max="20" name="guests" value="1" /></label>
+          <label>Message <textarea name="message" rows="3" placeholder="A blessing or message for us (optional)"></textarea></label>
+          <button class="button button-dark" type="submit">Send RSVP ↗</button>
+        </form>
+        <p class="form-note">RSVPs will open directly in WhatsApp.</p>
+      </div>
+    </section>
+
+    <section class="closing section">
+      <div class="closing-inner reveal">
+        <p class="eyebrow">With love and gratitude</p>
+        <h2>Kishore <i>&amp;</i> Nivethitha</h2>
+        <p>We can't wait to celebrate this beautiful beginning with you.</p>
+        <div class="ornament">❈</div>
+        <p class="small">11 · 11 · 2026 · ERODE</p>
+      </div>
+    </section>
+  </main>
+  <footer>Made with love for our wedding · 2026</footer>
+  <script src="script.js"></script>
+</body>
+</html>
